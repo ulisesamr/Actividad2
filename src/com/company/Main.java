@@ -9,7 +9,7 @@ public class Main {
         String nombreAlumno = "";
         System.out.println("Ingresa el nombre del alumno: \n");
         nombreAlumno = sc.nextLine();
-        //System.out.println("El nombre del alumno que ingreso es: " + nombreAlumno);
+        System.out.println("El nombre del alumno que ingreso es: " + nombreAlumno);
 
         int numeroContenedor = 5;
         System.out.println("Digite las calificaciones: ");
@@ -18,7 +18,7 @@ public class Main {
         for (int i = 0; i <numeroContenedor; i++) {
             System.out.println("Digite la calificacion numero " + (i+1) + ":" );
             arrayCalificaciones[i]= sc.nextInt();
-        //    System.out.println("La calificacion ingresada numero " + (i+1) + " es: " + arrayCalificaciones[i] + "\n");
+         System.out.println("La calificacion ingresada numero " + (i+1) + " es: " + arrayCalificaciones[i] + "\n");
 
         }
         Promedio alumno1 = new Promedio(nombreAlumno,arrayCalificaciones);
